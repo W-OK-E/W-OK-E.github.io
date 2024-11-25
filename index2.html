@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4">
+                            <span class="font-semibold text-gray-700 text-lg">My Blog</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto mt-10 px-4">
+        <article class="bg-white rounded-lg shadow-md p-6">
+            <!-- Article Header -->
+            <header class="mb-8">
+                <h1 class="text-3xl font-bold mb-4">Article Title</h1>
+                <div class="flex items-center text-gray-600">
+                    <span class="mr-4">
+                        <i class="far fa-calendar mr-2"></i>
+                        <time datetime="2024-11-25">November 25, 2024</time>
+                    </span>
+                    <span>
+                        <i class="far fa-clock mr-2"></i>
+                        5 min read
+                    </span>
+                </div>
+            </header>
+
+            <!-- Article Content -->
+            <div class="prose max-w-none">
+                <!-- Example of text with image -->
+                <p class="mb-4">
+                    Your article content goes here. You can write paragraphs and include images using the article-image class.
+                </p>
+                <img src="/api/placeholder/800/400" alt="Example image" class="my-6 rounded-lg shadow-md w-full">
+                <p class="mb-4">
+                    Continue with more paragraphs and images as needed.
+                </p>
+            </div>
+        </article>
+
+        <!-- Related Articles Carousel -->
+        <div class="mt-12 mb-8">
+            <h2 class="text-2xl font-bold mb-6">Related Articles</h2>
+            <div class="relative">
+                <div class="flex space-x-4 overflow-x-auto pb-4">
+                    <!-- Related Article 1 -->
+                    <div class="flex-none w-72">
+                        <a href="#" class="block">
+                            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                                <img src="/api/placeholder/400/200" alt="Article 1" class="w-full h-40 object-cover">
+                                <div class="p-4">
+                                    <h3 class="font-semibold text-lg mb-2">Related Article 1</h3>
+                                    <p class="text-gray-600 text-sm">Brief description of the related article...</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Related Article 2 -->
+                    <div class="flex-none w-72">
+                        <a href="#" class="block">
+                            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                                <img src="/api/placeholder/400/200" alt="Article 2" class="w-full h-40 object-cover">
+                                <div class="p-4">
+                                    <h3 class="font-semibold text-lg mb-2">Related Article 2</h3>
+                                    <p class="text-gray-600 text-sm">Brief description of the related article...</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Related Article 3 -->
+                    <div class="flex-none w-72">
+                        <a href="#" class="block">
+                            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                                <img src="/api/placeholder/400/200" alt="Article 3" class="w-full h-40 object-cover">
+                                <div class="p-4">
+                                    <h3 class="font-semibold text-lg mb-2">Related Article 3</h3>
+                                    <p class="text-gray-600 text-sm">Brief description of the related article...</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-12 py-6">
+        <div class="max-w-4xl mx-auto px-4 text-center text-gray-600">
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
