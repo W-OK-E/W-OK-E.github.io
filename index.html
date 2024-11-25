@@ -112,7 +112,7 @@
                 </p>
             
                 <figure>
-                    <img src="O:\W-OK-E.github.io\site_assets\gen_net_1.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="site_assets\gen_net_1.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
                     <figcaption style="font-size: 0.75em; color: rgb(171, 151, 39);"><a href="https://distill.pub/2021/gnn-intro/">Source</a></figcaption>
                 </figure>
                 <p>
@@ -125,7 +125,7 @@
                     In the wild though, graphs find application in not just the most beautiful of domains, but also the useful ones. Take heterogeneous data like molecules, they are the building blocks of matter with electrons and atoms hanging in 3D space joined to their brethren via bonds and that too different kinds of - Single/Double/Covalent/Ionic. It's a very convenient and common abstraction to describe molecules then, as Graphs! With nodes representing molecules and edges representing covalent bonds.
                 </p>
                 <figure>
-                    <img src="O:\W-OK-E.github.io\site_assets\gen_net_2.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="site_assets\gen_net_2.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
                     <figcaption style="font-size: 0.75em; color: rgb(171, 151, 39);"><a href="https://distill.pub/2021/gnn-intro/">Source</a></figcaption>
                 </figure>
                 <h2>Graph Representations and Tasks</h2>
@@ -183,7 +183,7 @@
                     One possibility is the good old Adjacency Matrix, so consider an example below:
                 </p>
                 <figure>
-                    <img src="O:\W-OK-E.github.io\site_assets\gen_net_3.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="site_assets\gen_net_3.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
                     <figcaption style="font-size: 0.75em; color: rgb(171, 151, 39);"><a href="https://distill.pub/2021/gnn-intro/">Source</a></figcaption>
                 </figure>
                 <h2>Graph Representations and Neural Networks</h2>
@@ -273,14 +273,14 @@
                     So consider the following molecule:
                 </p>
                 <figure>
-                    <img src="O:\W-OK-E.github.io\site_assets\gen_net_4.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="site_assets\gen_net_4.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
                     <figcaption style="font-size: 0.75em; color: rgb(171, 151, 39);">Source:Me 🤡</figcaption>
                 </figure>
                 <p>
                     The way we could go about representing this as a graph can vary, we can either consider individual atoms as nodes or some smaller fragments of the molecule as nodes, in which we would need to specify the index of the node that other fragments can connect to. So let's say we take a CO fragment from the molecule the vector representing the positions where you can connect to can look like [0,0](since you can attach two more atoms to the carbonyl carbon) and you can maybe have a feature vector that represents some additional information about the particular molecule. Need an example for that too??? Well C'mon >_<... okay okay I will give you one...
                 </p>
                 <figure style="display: flex; justify-content: center; align-items: center;">
-                    <img src="O:\W-OK-E.github.io\site_assets\gen_net_5.webp" alt="Description of the image" style="max-width: 100%; height: auto; align-items:center;">
+                    <img src="site_assets\gen_net_5.webp" alt="Description of the image" style="max-width: 100%; height: auto; align-items:center;">
                     <figcaption style="font-size: 0.75em; color: rgb(171, 151, 39);">Source:Me 🤡</figcaption>
                 </figure>   
                 <p>Consider you choose to represent features like toxicity, pH, polarity etc.. about every fragment/atom/node you have with you. So you will create a vector, that looks something like [0.5,0.4,0.9,.....] with the numbers in the vector representing those particular features about the fragment. This is the embedding....that I have been screaming about throughout this post. You can maybe try having a similar feature vector for the bonds as well, then comes in the pooling operation where you do crazy shit(nah just gather all the vectors together, put them into a matrix after applying either sum or mean function). Then pass this and the other nodes through the neural network to learn the relation between each fragment and how they affect the molecules' effectiveness against the particular disease. So in the end output of our model is single number which could either be MIC(how well it inhibits a bacteria) or some other metric. </p>
@@ -298,9 +298,9 @@
                 <div class="flex space-x-4 overflow-x-auto pb-4">
                     <!-- Related Article 1 -->
                     <div class="flex-none w-72">
-                        <a href="O:\W-OK-E.github.io\Track.html" class="block">
+                        <a href="Track.html" class="block">
                             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                                <img src="O:\W-OK-E.github.io\site_assets\track\track_2.webp" alt="Article 1" class="w-full h-40 object-cover">
+                                <img src="site_assets\track\track_2.webp" alt="Article 1" class="w-full h-40 object-cover">
                                 <div class="p-4">
                                     <h3 class="font-semibold text-lg mb-2">Track Me If you Can</h3>
                                 </div>
@@ -312,7 +312,7 @@
                     <div class="flex-none w-72">
                         <a href="#" class="block">
                             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                                <img src="O:\W-OK-E.github.io\site_assets\FInding Nemo.webp" alt="Article 2" class="w-full h-40 object-cover">
+                                <img src="site_assets\FInding Nemo.webp" alt="Article 2" class="w-full h-40 object-cover">
                                 <div class="p-4">
                                     <h3 class="font-semibold text-lg mb-2">Finding Nemo..But with Deep Learning</h3>
                                 </div>
@@ -324,7 +324,7 @@
                     <div class="flex-none w-72">
                         <a href="#" class="block">
                             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                                <img src="O:\W-OK-E.github.io\site_assets\Dermato Learning\1.webp" alt="Article 3" class="w-full h-40 object-cover">
+                                <img src="site_assets\Dermato Learning\1.webp" alt="Article 3" class="w-full h-40 object-cover">
                                 <div class="p-4">
                                     <h3 class="font-semibold text-lg mb-2">Dermato Learning</h3>
                                 </div>
