@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About – Ωμ</title>
   <style>
     body {
@@ -29,41 +29,37 @@
     .tagline {
       font-style: italic;
       color: #666;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
-    .tree-container {
+    .graph-container {
       flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       width: 100%;
+      overflow-x: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     svg {
-      width: 90%;
-      max-width: 600px;
-      height: auto;
+      height: 300px;
+      width: 1000px;
     }
 
-    .trunk, .branch {
+    .edge {
+      stroke: #8B4513;
+      stroke-width: 3;
       stroke-dasharray: 1000;
       stroke-dashoffset: 1000;
       animation: grow 2s ease-out forwards;
     }
 
-    .trunk {
-      animation-delay: 0.2s;
-    }
-
-    .branch:nth-of-type(1) { animation-delay: 0.6s; }
-    .branch:nth-of-type(2) { animation-delay: 1s; }
-    .branch:nth-of-type(3) { animation-delay: 1.4s; }
+    .edge:nth-of-type(1) { animation-delay: 0.4s; }
+    .edge:nth-of-type(2) { animation-delay: 0.8s; }
+    .edge:nth-of-type(3) { animation-delay: 1.2s; }
 
     @keyframes grow {
-      to {
-        stroke-dashoffset: 0;
-      }
+      to { stroke-dashoffset: 0; }
     }
 
     .node {
@@ -78,18 +74,11 @@
     .node:nth-of-type(3) { animation-delay: 2.6s; }
 
     @keyframes appear {
-      to {
-        opacity: 1;
-      }
-    }
-
-    .node:hover {
-      transform: scale(1.1);
+      to { opacity: 1; }
     }
 
     .label {
       font-size: 14px;
-      text-anchor: middle;
       fill: #333;
       opacity: 0;
       animation: appear 0.3s ease forwards;
@@ -120,42 +109,40 @@
   </style>
 </head>
 <body>
-
   <h1>/Ωμ/</h1>
-  <p class="tagline">Academic Journey: A Tree in Bloom</p>
+  <p class="tagline">Academic Graph: A Landscape Journey</p>
 
-  <div class="tree-container">
-    <svg viewBox="0 0 300 400">
-      <!-- Trunk -->
-      <line class="trunk" x1="150" y1="350" x2="150" y2="200" stroke="#8B4513" stroke-width="10"/>
-
-      <!-- Branches -->
-      <line class="branch" x1="150" y1="250" x2="100" y2="180" stroke="#8B4513" stroke-width="4"/>
-      <line class="branch" x1="150" y1="240" x2="200" y2="150" stroke="#8B4513" stroke-width="4"/>
-      <line class="branch" x1="150" y1="220" x2="130" y2="100" stroke="#8B4513" stroke-width="3"/>
+  <div class="graph-container">
+    <svg viewBox="0 0 1000 300">
+      <!-- Edges -->
+      <line class="edge" x1="100" y1="150" x2="300" y2="150"/>
+      <line class="edge" x1="300" y1="150" x2="500" y2="100"/>
+      <line class="edge" x1="300" y1="150" x2="500" y2="200"/>
 
       <!-- Nodes -->
-      <circle class="node" cx="100" cy="180" r="8" data-info="High School: 2016–2018 – Science stream with focus on Math and CS"/>
-      <circle class="node" cx="200" cy="150" r="8" data-info="Bachelor's: 2018–2022 – B.Tech in Computer Science at XYZ University"/>
-      <circle class="node" cx="130" cy="100" r="8" data-info="Research Internship: Summer 2021 – AI for Bioinformatics at ABC Lab"/>
+      <circle class="node" cx="100" cy="150" r="10" data-info="High School: Science Stream"/>
+      <circle class="node" cx="300" cy="150" r="10" data-info="B.Tech in CS: 2018-2022"/>
+      <circle class="node" cx="500" cy="100" r="10" data-info="Research Intern: Summer 2021"/>
+      <circle class="node" cx="500" cy="200" r="10" data-info="Hackathons: Various AI & Bio Projects"/>
 
       <!-- Labels -->
-      <text class="label" x="100" y="170">High School</text>
-      <text class="label" x="200" y="140">B.Tech</text>
-      <text class="label" x="130" y="90">Internship</text>
+      <text class="label" x="100" y="135">High School</text>
+      <text class="label" x="300" y="135">B.Tech</text>
+      <text class="label" x="500" y="85">Internship</text>
+      <text class="label" x="500" y="220">Hackathons</text>
     </svg>
   </div>
 
   <div class="tooltip" id="tooltip"></div>
 
-  <footer>© 2025 Om Kumar · Academic Tree</footer>
+  <footer>© 2025 Om Kumar · Academic Graph</footer>
 
   <script>
     const tooltip = document.getElementById('tooltip');
     const nodes = document.querySelectorAll('.node');
 
     nodes.forEach(node => {
-      node.addEventListener('mouseenter', (e) => {
+      node.addEventListener('mouseenter', () => {
         tooltip.innerText = node.dataset.info;
         tooltip.style.opacity = 1;
       });
@@ -170,6 +157,5 @@
       });
     });
   </script>
-
 </body>
 </html>
