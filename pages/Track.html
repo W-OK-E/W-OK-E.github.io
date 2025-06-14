@@ -91,7 +91,7 @@
                 <p>How hard is it for you to keep track of the tennis ball when Federer and Nadal are up against each other? Quite easy, no? Barring of course, the torture that your neck has to undergo. 
                     </p>
                 <figure style="display: flex; justify-content: center; align-items: center;">
-                    <img src="../site_assets\track\1.gif" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="../site_assets/track/1.gif" alt="Description of the image" style="max-width: 100%; height: auto;">
                 </figure>
                 <p>But then, I thought to myself, how hard could this be for a machine? And how would they exactly go about achieving the task? So we will be taking up this seemingly simple task today -  to detect or track a volleyball and find the number of players in a volleyball match, but using <strong>Computer Vision!</strong> </p>
                 <h3>Getting the Ball in your Court</h3>
@@ -133,7 +133,7 @@
 But what on earth is <strong>"Gaussian Blurring"</strong> then? 
                 </p>
                 <figure style="display: flex; justify-content: center; align-items: center;">
-                    <img src="../site_assets\track\4.gif" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="../site_assets/track/4.gif" alt="Description of the image" style="max-width: 100%; height: auto;">
                 </figure>
                 <p>
                     So it starts by choosing a matrix or in fancy jargon - a "Kernel" with odd but equal number of rows & columns, with each value in the kernel being a 'weight'. So to think about it, the size needs to be odd because we need a central value in the kernel, and it is not possible to have one with a kernel of even size. Now each value in white that you see in each box are the 'weights' associated with it or the emphasis that the pixel value in that box will be given.
@@ -150,7 +150,7 @@ Hence when our kernel is in the top left corner of the image, the value that the
                     Now the catch here is that, after we have read the frame from the video, we convert it from RGB to HSV(more on it soon). But the reason for switching to HSV is not the limitations faced by RGB in representing every color in the spectrum, rather it is in the way the RGB model responds to variations.
                 </p>
                 <figure style="display: flex; justify-content: center; align-items: center;">
-                    <img src="../site_assets\track\5.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="../site_assets/track/5.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
                 </figure>
                 <p>
                     HSV or Hue, Saturation, Value is has three parameters or numbers, just like RGB but they have different characteristics. Hue for instance, handles the color part and ranges from 0 to 360 degrees. So for instance shades of Red fall between 0 and 60 degrees, yellow from 61-120 degrees and so on.
@@ -163,7 +163,7 @@ Value handles the brightness/luminosity of the image and just as it's brother Sa
                     Now the reason why we are going with HSV over RGB or some other color model for the purpose is that there are very less variations from color to color in the HSV range than in RGB. To think of it, two shades of red will be closer in the HSV color model than in RGB. So imagine if in our video, the ball comes under a light source and is brighter than usual for a moment, if our image is in HSV, the range that we have asked the computer to look for won't change much, as the two shades are closer on the HSV scale, but at the same time, if the model used were RGB, the resultant change will be significant and our pre-defined range could be rendered useless.
                 </p>
                 <figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                    <img src="../site_assets\track\6.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="../site_assets/track/6.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
                     <figcaption>The HSV Color Model</figcaption>
                 </figure>
                 <h2>As they say:Look at what's relevant</h2>
@@ -172,12 +172,12 @@ Value handles the brightness/luminosity of the image and just as it's brother Sa
                 </p>
 
                 <figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                    <img src="../site_assets\track\7.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="../site_assets/track/7.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
                 </figure>
 
                 <br>
                 <figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                    <img src="../site_assets\track\8.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
+                    <img src="../site_assets/track/8.webp" alt="Description of the image" style="max-width: 100%; height: auto;">
                     <figcaption>This is known as <strong>masking</strong> in the jargon.</figcaption>
                 </figure>
                 <p>
