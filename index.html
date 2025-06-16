@@ -4,13 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ωμ — Om Portfolio</title>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    integrity="sha512-yH0iKzN5YcxFddYxNdI2QeStNHnKjz3X9cYxMdrFlLEMoR+K9JId0bGRkNQgZhaD7ZqPqHe1bE2J10k5z9Zalg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+
   <style>
     body {
       margin: 0;
@@ -24,15 +18,12 @@
       height: 100vh;
       text-align: center;
     }
-
     main {
       max-width: 90%;
     }
-
     .image-container {
       margin-bottom: 1.5rem;
     }
-
     .image-container img {
       width: 120px;
       height: 120px;
@@ -40,20 +31,17 @@
       border-radius: 50%;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-
     h1 {
       font-size: 2.5rem;
       font-weight: bold;
       font-family: 'Courier New', Courier, monospace;
       margin-bottom: 0.5rem;
     }
-
     .tagline {
       font-style: italic;
       color: #666;
       margin-bottom: 2rem;
     }
-
     nav a {
       display: block;
       font-size: 1.2rem;
@@ -62,32 +50,35 @@
       color: #333;
       transition: color 0.3s ease;
     }
-
     nav a:hover {
       color: #000;
     }
-
     .socials {
       margin-top: 1.5rem;
     }
-
     .socials a {
       margin: 0 10px;
       color: #444;
       font-size: 1.5rem;
       transition: color 0.3s ease;
+      text-decoration: none;
     }
-
     .socials a:hover {
       color: #000;
     }
-
+    
+    .socials a {
+      display: inline-block;
+      min-width: 2rem;
+      text-align: center;
+      font-weight: bold;
+    }
+    
     footer {
       margin-top: 2rem;
       font-size: 0.85rem;
       color: #aaa;
     }
-
     .rss {
       font-size: 0.9rem;
     }
@@ -104,26 +95,23 @@
       <a href="pages/Track.html">Blog</a>
       <a href="pages/About.html">About</a>
     </nav>
-
-   <div class="socials">
-  <a href="https://in.pinterest.com/okhere21/_created" target="_blank" title="Pinterest">
-    <i class="fab fa-pinterest"></i>
-  </a>
-  <a href="https://github.com/W-OK-E" target="_blank" title="GitHub">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://www.linkedin.com/in/om-kumar-75517926a" target="_blank" title="LinkedIn">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://www.instagram.com/w_ok_e18/" target="_blank" title="Instagram">
-    <i class="fab fa-instagram"></i>
-  </a>
-  <a href="mailto:okhere21@gmail.com" target="_blank" title="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-</div>
-
-
+    <div class="socials">
+      <a href="https://in.pinterest.com/okhere21/_created" target="_blank" title="Pinterest">
+        <i class="fab fa-pinterest" aria-hidden="true"></i>
+      </a>
+      <a href="https://github.com/W-OK-E" target="_blank" title="GitHub">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/om-kumar-75517926a" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/w_ok_e18/" target="_blank" title="Instagram">
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="mailto:okhere21@gmail.com" target="_blank" title="Email">
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+      </a>
+    </div>
     <footer>
       © 2025 Om Kumar · · Portfolio · <span class="rss">📡</span>
     </footer>
