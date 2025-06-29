@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About – Ωμ (Mobile)</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 1rem;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .section {
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+ 
+    <h1>/Ωμ/</h1>
+    <p class="tagline">The Journey so far, we'll see what's up next...</p>
+  
+    <div class="graph-container">
+      <svg viewBox="0 0 1400 400">
+        <!-- Edges -->
+        <line class="edge" x1="100" y1="200" x2="250" y2="200"/>
+        <line class="edge" x1="250" y1="200" x2="400" y2="200"/>
+        <line class="edge" x1="400" y1="200" x2="600" y2="200"/>
+  
+        <line class="edge" x1="600" y1="200" x2="800" y2="100"/>
+        <line class="edge" x1="600" y1="200" x2="800" y2="150"/>
+        <line class="edge" x1="600" y1="200" x2="800" y2="200"/>
+        <line class="edge" x1="600" y1="200" x2="800" y2="250"/>
+        <line class="edge" x1="600" y1="200" x2="800" y2="300"/>
+  
+        <!-- Nodes -->
+        <circle class="node" cx="100" cy="200" r="10" data-info="Secondary Education - When you could just lay back and enjoy"/>
+        <circle class="node" cx="250" cy="200" r="10" data-info="NIOS - Quite Unexpected twist trust me"/>
+        <circle class="node" cx="400" cy="200" r="10" data-info="Wasn't too sure, but hasn't disappointed"/>
+  
+        <circle class="node" cx="800" cy="100" r="10" data-info="Remote Research Intern"/>
+        <circle class="node" cx="800" cy="150" r="10" data-info="Netweb Research Intern"/>
+        <circle class="node" cx="800" cy="200" r="10" data-info="Best Place tbh"/>
+        <circle class="node" cx="800" cy="250" r="10" data-info="Awesome People ngl"/>
+        <circle class="node" cx="800" cy="300" r="10" data-info="An addition I don't regret."/>
+  
+        <!-- Labels -->
+        <text class="label" x="80" y="185">St.Ann's</text>
+        <text class="label" x="230" y="185">NIOS</text>
+        <text class="label" x="380" y="185">MIT Manipal</text>
+        <text class="label" x="780" y="90">IIT-Kgp</text>
+        <text class="label" x="780" y="140">NISER</text>
+        <text class="label" x="780" y="190">MANAS</text>
+        <text class="label" x="780" y="240">IAESTE</text>
+        <text class="label" x="800" y="290">E-Cell & RSM</text>
+      </svg>
+    </div>
+  
+    <div class="tooltip" id="tooltip"></div>
+  
+    <footer>© 2025 Om Kumar · Academic Graph</footer>
+  
+    <script>
+      const tooltip = document.getElementById('tooltip');
+      const nodes = document.querySelectorAll('.node');
+  
+      nodes.forEach(node => {
+        node.addEventListener('mouseenter', () => {
+          tooltip.innerText = node.dataset.info;
+          tooltip.style.opacity = 1;
+        });
+  
+        node.addEventListener('mousemove', (e) => {
+          tooltip.style.top = (e.pageY + 15) + 'px';
+          tooltip.style.left = (e.pageX + 15) + 'px';
+        });
+  
+        node.addEventListener('mouseleave', () => {
+          tooltip.style.opacity = 0;
+        });
+      });
+    </script>
+  </body>
+  </html>
