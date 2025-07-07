@@ -6,6 +6,18 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+
+* Control the icon size */
+.social-icon i {
+  font-size: 1.2rem; /* adjust this as needed (1.2rem = ~19px) */
+}
+
+/* Optional: adjust spacing around icons */
+.social-icon {
+  margin: 0 0.25em;
+}
+
+
 @import
   "variables",
   "themes",
