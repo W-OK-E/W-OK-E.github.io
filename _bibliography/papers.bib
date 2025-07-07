@@ -1,36 +1,46 @@
+--- 
 ---
----
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@unpublished{IEEE,
+  title        = {Medical Image Super Resolution for Arbitrary Scale Factors},
+  author       = {Dewan, Dipayan and Kumar, Om and Kumar, Abhishek},
+abstract     ={ High-resolution ultrasound imaging is critical                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+                in clinical diagnosis, enabling early detection of abnor-
+                malities and precise assessment of anatomical structures.
+                While super-resolution techniques have been widely ex-
+                plored in medical imaging, most existing approaches are
+                restricted to fixed or integer scaling factors. Arbitrary-
+                scale super-resolution, especially for ultrasound images,
+                remains largely unaddressed. This study presents a novel
+                pipeline integrating a lightweight model, EliteNet, with ar-
+                chitectural and training modifications to support arbitrary
+                and asymmetric scaling for ultrasound images. A resize
+                layer is introduced at the head of the network to accept
+                user-defined scaling factors, and a two-step training strat-
+                egy is employed to enhance output quality. In the first
+                step, the model is trained using a hybrid loss combining
+                Structural Similarity Index (SSIM) and Frequency Domain
+                Loss (FDL). In the second step, only the final layer is
+                updated using SSIM and L1 loss, preserving learned fea-
+                tures while eliminating artifacts. A dedicated dataset was
+                collected and augmented using flips and reflective padding
+                to ensure structural consistency. Low-resolution images
+                were synthesized using both symmetric and asymmetric
+                scale factors. Our approach yields visually superior results
+                and demonstrates better generalization across arbitrary
+                scales. Quantitatively, it achieves a PSNR of 22.8018 and
+                SSIM of 0.5947, outperforming existing baselines such as
+                ArbRCAN, SRDNet, RDUNet, and ABPN. Extensive abla-
+                tion studies validate the effectiveness of the loss config-
+                uration and training strategy. This work lays foundational
+                groundwork for adaptive, high-quality ultrasound imaging
+                and opens opportunities for real-time, resource-efficient
+                diagnostic applications.},
+  note         = {Manuscript in preparation},
+  year         = {2025},
+  selected     = {true},
+  pdf={US_ArbSR.pdf},
+  authorlinks  = {Dipayan Dewan:https://scholar.example.com/dipayan; Om Kumar:https://scholar.example.com/om; Abhishek Kumar:https://scholar.example.com/abhishek}
 }
 
 @article{PhysRev.47.777,
@@ -57,59 +67,7 @@
   video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
   additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
   annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
+  selected={false},
   inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
