@@ -4,10 +4,10 @@
 @charset "utf-8";
 
 // Dimensions
-$max-content-width: {{ site.max_width }};
+$max-content-width: 100%; /* Replace with a valid SCSS value, e.g., 100% or a specific width */
 
 
-* Control the icon size */
+// Control the icon size
 .social-icon i {
   font-size: 1.2rem; /* adjust this as needed (1.2rem = ~19px) */
 }
