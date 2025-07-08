@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Dimensions
-$max-content-width: 100%; /* Replace with a valid SCSS value, e.g., 100% or a specific width */
+$max-content-width: {{ site.max_width }};
 
 
 // Control the icon size
