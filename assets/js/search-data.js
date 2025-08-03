@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-the-flow-of-generative-networks",
+        },{id: "post-is-cancer-modern-or-retro-gt-lt",
+        
+          title: "Is Cancer Modern or Retro &gt;_&lt; ?",
+        
+        description: "A teensy tiny story from our everlasting battle with cancer.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/cancer/";
+          
+        },
+      },{id: "post-the-flow-of-generative-networks",
         
           title: "The flow of Generative Networks",
         
