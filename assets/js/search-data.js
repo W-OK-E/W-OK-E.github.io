@@ -112,7 +112,7 @@ ninja.data = [{
         title: 'Pinterest',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.pinterest.com/okhere21", "_blank");
+          window.open("https://www.pinterest.com/okhere21/_pins/", "_blank");
         },
       },{
       id: 'light-theme',
