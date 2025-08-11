@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-is-cancer-modern-or-retro-gt-lt",
+        },{id: "post-pictures-of-the-unseen",
+        
+          title: "Pictures of the Unseen...",
+        
+        description: "A short description of how we aim to improve 3D reconstruction using Diffusion Priors.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/difix/";
+          
+        },
+      },{id: "post-is-cancer-modern-or-retro-gt-lt",
         
           title: "Is Cancer Modern or Retro &gt;_&lt; ?",
         
