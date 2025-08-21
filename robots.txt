@@ -5,3 +5,37 @@ User-agent: *
 Disallow:
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+
+
+Fernandes Hospital - AI in healthcare , some talk in first week of September.
+
+
+Associate Director from Cropin Technologies - Menton-Mentee Program(Strong Coding skills for DL 
+and ML)
+
+
+IBM - Workshop bullshit.
+
+CSIR Fourth Paradigm Institute - Mostly ML, DL, offering summer internships but might hold 
+us back for an extended period remotely
+
+
+Again some mentorship thingy. 
+
+Check out GATE!!!!
+
+SHE SAID, COMPANIES NAHI AAYENGE MUMMYYY
+
+AI Render - unpaid internships
+
+Clarify about off-campus placements.
+
+Dr. Manohar Pai is taking 4-5 interns with payment
+
+Todolist:
+1.Brochure - Kya padha hamne 3 saal???? And kaha kaam milega hamko?
+2.WIllingess - Kaam karna hai??? Ya jhak maar rahe ho?
+3.Areas of INterest - Makeout with AOI(Left to your imagination).
+4.LinkedIN Grind - Reach out to people and lick ass(AWS) aMAZON WEB SERVICES
+5.Contact with the seniors 
+6.GATE Kholo
