@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-pictures-of-the-unseen",
+        },{id: "post-your-dog-can-sniff-mine-scans",
+        
+          title: "Your dog can sniff, mine scans...",
+        
+        description: "Well, it was time I made our dog smarter, afterall the LLMs are tasked to do that aren&#39;t they?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/quad/";
+          
+        },
+      },{id: "post-pictures-of-the-unseen",
         
           title: "Pictures of the Unseen...",
         
