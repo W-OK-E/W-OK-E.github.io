@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-your-dog-can-sniff-mine-scans",
+        },{id: "post-lights-language-camera-action",
+        
+          title: "Lights❌ Language✅ Camera...Action",
+        
+        description: "Deep Dive into the Quar-VLA paper",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/quarv/";
+          
+        },
+      },{id: "post-your-dog-can-sniff-mine-scans",
         
           title: "Your dog can sniff, mine scans...",
         
