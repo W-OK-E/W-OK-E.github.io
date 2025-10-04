@@ -52,17 +52,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/saycan/";
           
         },
-      },{id: "post-watch-and-learn-forget-the-speech",
-        
-          title: "Watch and Learn, forget the speech!",
-        
-        description: "The best way to learn something is to imitate the actor.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/balltracking/";
-          
-        },
       },{id: "post-lights-language-camera-action",
         
           title: "Lights❌ Language✅ Camera...Action",
@@ -116,6 +105,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/gnn/";
+          
+        },
+      },{id: "post-track-me-if-you-can",
+        
+          title: "Track me if you can!",
+        
+        description: "Simple Ball Tracking using hsv",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/balltracking/";
           
         },
       },{id: "books-the-emperor-of-all-maladies",
