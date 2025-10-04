@@ -30,7 +30,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-lights-language-camera-action",
+        },{id: "post-delegation-discomfort-and-decisions",
+        
+          title: "Delegation, Discomfort and Decisions!",
+        
+        description: "It&#39;s so easy to get lost in othe&#39;s thoughts or even our own ideas, is there a way to take this up? And why should we worry about whether",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/onurown/";
+          
+        },
+      },{id: "post-watch-and-learn-forget-the-speech",
+        
+          title: "Watch and Learn, forget the speech!",
+        
+        description: "The best way to learn something is to imitate the actor.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/saycan/";
+          
+        },
+      },{id: "post-watch-and-learn-forget-the-speech",
+        
+          title: "Watch and Learn, forget the speech!",
+        
+        description: "The best way to learn something is to imitate the actor.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/balltracking/";
+          
+        },
+      },{id: "post-lights-language-camera-action",
         
           title: "Lights❌ Language✅ Camera...Action",
         
