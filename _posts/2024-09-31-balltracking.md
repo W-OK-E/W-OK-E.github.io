@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Watch and Learn, forget the speech!
-date: 2025-08-31 18:00:00
-description: The best way to learn something is to imitate the actor.
-tags: Deep Learning, Research, LLMs, Robotics, Quadruped.  
+title: Track me if you can!
+date: 2024-09-31 18:00:00
+description: Simple Ball Tracking using hsv
+tags: Computer Vision, OpenCV
 categories: Posts
 chart:
   plotly: true
