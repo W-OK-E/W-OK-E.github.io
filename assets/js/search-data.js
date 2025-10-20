@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-delegation-discomfort-and-decisions",
+        },{id: "post-a-quick-overview-of-byte-pair-encoding-tokenizers",
+        
+          title: "A quick overview of Byte Pair Encoding tokenizers!",
+        
+        description: "Quick Dive into Byte Pair Encoding tokenizers.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/bpe_short/";
+          
+        },
+      },{id: "post-delegation-discomfort-and-decisions",
         
           title: "Delegation, Discomfort and Decisions!",
         
