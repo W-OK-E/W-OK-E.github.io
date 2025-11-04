@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-a-quick-overview-of-byte-pair-encoding-tokenizers",
+        },{id: "post-a-simple-and-intuitive-guide-to-using-uv-an-awesome-tool-from-astral",
+        
+          title: "A simple and intuitive guide to using uv - an awesome tool from...",
+        
+        description: "Quick Dive into Byte Pair Encoding tokenizers.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/uv_tutorial/";
+          
+        },
+      },{id: "post-a-quick-overview-of-byte-pair-encoding-tokenizers",
         
           title: "A quick overview of Byte Pair Encoding tokenizers!",
         
