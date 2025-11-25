@@ -145,6 +145,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/emp_Maladies/";
+            },},{id: "books-thinking-fast-and-slow",
+          title: 'Thinking Fast and Slow',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/think_fast_slow/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
