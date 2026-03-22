@@ -52,6 +52,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/bpe_short/";
           
         },
+      },{id: "post-let-39-s-paint-shall-we",
+        
+          title: "Let&#39;s Paint! Shall we?.",
+        
+        description: "A primer on 3DGS.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/3dgs/";
+          
+        },
       },{id: "post-delegation-discomfort-and-decisions",
         
           title: "Delegation, Discomfort and Decisions!",
