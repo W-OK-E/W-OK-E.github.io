@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-umm-hello-there-39-s-a-protocol-for-it",
-        
-          title: "Umm..Hello? There&#39;s a Protocol for it.",
-        
-        description: "A discussion on the wide-array of Protocols.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Protocols/";
-          
-        },
-      },{id: "post-let-39-s-paint-shall-we",
+        },{id: "post-let-39-s-paint-shall-we",
         
           title: "Let&#39;s Paint! Shall we?.",
         
