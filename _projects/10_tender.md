@@ -8,10 +8,7 @@ category: work
 github: https://github.com/W-OK-E/GEM_TENDER_AUTOMATION
 ---
 
-One of my very first projects: automating government tender submissions on the GeM portal using Selenium, reducing manual effort from hours to minutes.
+# GEM_TENDER_AUTOMATION
+Automating the tender acquisition process using Selenium
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/placeholder.jpg" title="Tender Automation" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+SA India is a group of service companies that offer Workforce to several government and private organisations in various sectors, ranging from Security to Housekeeping to Data Entry Operations. The tender acqusition process has been digitized and is carried out at the Government-E-Marketplace portal, and involves a bunch of document uploads and few checkboxes. This program is an attempt to automate that process. Although the program might not remain fully compatible with future versions of the website due to changes in div structures and web-page design, it is a nice little project that I developed while  trying to help out my Mom.
