@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "A sneak-peek into my Github",
@@ -30,14 +37,51 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Insanely Curious and sometimes vain",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "post-let-39-s-paint-shall-we",
+        },{id: "post-branch-prediction-from-cpus-to-gpus-and-tpus",
+        
+          title: "Branch Prediction: From CPUs to GPUs and TPUs",
+        
+        description: "Exploring the evolution of branch prediction and parallel execution across CPU, GPU, and TPU architectures.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/asics/";
+          
+        },
+      },{id: "post-ult-unifying-teacher-student-rl-with-transformers",
+        
+          title: "ULT: Unifying Teacher-Student RL with Transformers",
+        
+        description: "A deep dive into the ULT paper and how it replaces split teacher-student policies with a single unified transformer architecture for RL.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ult/";
+          
+        },
+      },{id: "post-breaking-down-sregym",
+        
+          title: "Breaking down SREGym!",
+        
+        description: "Quick Dive into SREGym - the evaluation benchmark for agents deployed in SRE settings.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/sregym/";
+          
+        },
+      },{id: "post-breaking-down-sregym",
+        
+          title: "Breaking down SREGym!",
+        
+        description: "Quick Dive into SREGym - the evaluation benchmark for agents deployed in SRE settings.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/sregym-rfc2/";
+          
+        },
+      },{id: "post-let-39-s-paint-shall-we",
         
           title: "Let&#39;s Paint! Shall we?.",
         
@@ -158,28 +202,106 @@ ninja.data = [{
             window.location.href = "/blog/2024/balltracking/";
           
         },
-      },{id: "books-the-emperor-of-all-maladies",
+      },{id: "books-breaking-the-code",
+          title: 'Breaking the Code',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/breaking_code/";
+            },},{id: "books-the-da-vinci-code",
+          title: 'The Da Vinci Code',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/davinci_code/";
+            },},{id: "books-the-emperor-of-all-maladies",
           title: 'The Emperor of All Maladies',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/emp_Maladies/";
+            },},{id: "books-project-hail-mary",
+          title: 'Project Hail Mary',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hail_mary/";
+            },},{id: "books-a-hunger-artist",
+          title: 'A Hunger Artist',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hunger_artist/";
+            },},{id: "books-notes-from-underground",
+          title: 'Notes from Underground',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/notes_underground/";
+            },},{id: "books-the-space-barons",
+          title: 'The Space Barons',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/space_barons/";
             },},{id: "books-thinking-fast-and-slow",
           title: 'Thinking Fast and Slow',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/think_fast_slow/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-joined-niser-bhubaneswar-as-a-summer-research-intern-working-on-3d-reconstruction-and-gaussian-splatting-floater-removal-pipelines",
+          title: 'Joined NISER Bhubaneswar as a Summer Research Intern working on 3D Reconstruction and...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-team-project-manas-achieved-3rd-place-globally-at-the-igvc-2025-usa-autonav-driverless-challenge-proud-to-have-contributed-to-the-perception-and-navigation-stack",
+          title: 'Our team, Project MANAS, achieved 3rd place globally at the IGVC 2025 (USA)...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-exciting-news-i-will-be-joining-the-max-planck-institute-for-intelligent-systems-in-tübingen-germany-as-a-research-intern-i-have-also-taken-on-the-role-of-expansion-manager-for-the-tübingen-chapter-of-degis",
+          title: 'Exciting news! I will be joining the Max Planck Institute for Intelligent Systems...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-gem-tender-automation",
+          title: 'GeM Tender Automation',
+          description: "Automated government tender submissions using Selenium.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_tender/";
+            },},{id: "projects-unitree-gov2-mujoco-rl-mjx",
+          title: 'Unitree Gov2 Mujoco RL (MJX)',
+          description: "Unitree Go2 MuJoCo simulations ported to XLA for massive RL training speedups.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_mjx_rl/";
+            },},{id: "projects-medical-imaging-foundation-model",
+          title: 'Medical Imaging Foundation Model',
+          description: "A multi-task, multi-modal foundation model for medical image segmentation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_foundation_model/";
+            },},{id: "projects-cleangs-gaussian-cleanup",
+          title: 'CleanGS (Gaussian Cleanup)',
+          description: "Post-hoc floater removal pipeline for 3D Gaussian Splatting (3DGS).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_cleangs/";
+            },},{id: "projects-reslocotransformer",
+          title: 'ResLocoTransformer',
+          description: "Residual Attention based Transformer policy for Quadruped Locomotion.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_resloco/";
+            },},{id: "projects-igvc-2025-project-manas",
+          title: 'IGVC 2025 (Project MANAS)',
+          description: "Software stack for our 3rd-place global autonomous ground vehicle at IGVC 2025.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_igvc/";
+            },},{id: "projects-isdc-2025-project-manas",
+          title: 'ISDC 2025 (Project MANAS)',
+          description: "Perception stack for our autonomous aerial vehicle - 1st Place among drones.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_isdc/";
+            },},{id: "projects-clear3d-3d-inpainting",
+          title: 'Clear3D (3D Inpainting)',
+          description: "Multi-view diffusion based 3D Inpainting for novel view synthesis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_clear3d/";
+            },},{id: "projects-eliteus-super-resolution",
+          title: 'EliteUS (Super-Resolution)',
+          description: "Lightweight arbitrary-scale super-resolution model for ultrasonography.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_eliteus/";
+            },},{id: "projects-gurukul-tutoring-site",
+          title: 'Gurukul (Tutoring Site)',
+          description: "Full-stack tutoring platform built with Next.js and Supabase.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_gurukul/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
