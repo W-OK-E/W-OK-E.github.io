@@ -6,9 +6,7 @@ repo_description_lines_max: 2
 github_repos:
   - W-OK-E/mjx_rl_go2
   - W-OK-E/foundation_model
-  - W-OK-E/cleangs
   - W-OK-E/ResLocoTransformer
-  - W-OK-E/Clear3D
   - W-OK-E/EliteUS
   - W-OK-E/IGVC-2025
   - W-OK-E/ISDC-2025

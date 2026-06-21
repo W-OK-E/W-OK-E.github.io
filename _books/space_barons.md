@@ -1,14 +1,12 @@
 ---
 layout: book-review
-title: The Space Barons
+title: Space Barons
 author: Christian Davenport
-cover: 
-olid: 
-isbn: 
+cover: assets/img/book_covers/Space_Barons.png
+olid: OL43499944M
+isbn: 9781610398299
 categories: non-fiction
-tags: space
+tags: 
 buy_link: 
-status: Read
+status: 
 ---
-
-Review coming soon.

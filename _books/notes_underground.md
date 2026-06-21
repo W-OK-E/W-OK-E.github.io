@@ -1,14 +1,12 @@
 ---
 layout: book-review
-title: Notes from Underground
+title: Notes from the Underground
 author: Fyodor Dostoevsky
-cover: 
-olid: 
-isbn: 
+cover: assets/img/book_covers/Notes_Underground.png
+olid: OL43499946M
+isbn: 9780141194868
 categories: fiction
-tags: philosophy
+tags: 
 buy_link: 
-status: Read
+status: 
 ---
-
-Review coming soon.

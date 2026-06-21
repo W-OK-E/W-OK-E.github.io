@@ -1,14 +1,12 @@
 ---
 layout: book-review
-title: Thinking Fast and Slow
+title: Thinking, Fast and Slow
 author: Daniel Kahneman
-cover: 
-olid: OL28227306M # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+cover: assets/img/book_covers/Thinking_Fast_Slow.png
+olid: OL43499949M
+isbn: 9780374275631
 categories: non-fiction
 tags: 
 buy_link: 
-status: Read
+status: 
 ---
-
-Coming Soon

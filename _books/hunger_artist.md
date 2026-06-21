@@ -2,13 +2,11 @@
 layout: book-review
 title: A Hunger Artist
 author: Franz Kafka
-cover: 
-olid: 
-isbn: 
+cover: assets/img/book_covers/Hunger_Artist.png
+olid: OL43499948M
+isbn: 9780241746929
 categories: fiction
-tags: classic
+tags: 
 buy_link: 
-status: Read
+status: 
 ---
-
-Review coming soon.

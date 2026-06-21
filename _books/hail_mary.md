@@ -2,13 +2,11 @@
 layout: book-review
 title: Project Hail Mary
 author: Andy Weir
-cover: 
-olid: 
-isbn: 
+cover: assets/img/book_covers/Project_Hail_Mary.png
+olid: OL43499945M
+isbn: 9780593135204
 categories: fiction
-tags: sci-fi
+tags: 
 buy_link: 
-status: Read
+status: 
 ---
-
-Review coming soon.
