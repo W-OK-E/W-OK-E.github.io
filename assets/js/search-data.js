@@ -212,6 +212,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/davinci_code/";
+            },},{id: "books-digital-minimalism",
+          title: 'Digital Minimalism',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/digital_minimalism/";
             },},{id: "books-the-emperor-of-all-maladies",
           title: 'The Emperor of All Maladies',
           description: "",
@@ -227,18 +232,33 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/hunger_artist/";
-            },},{id: "books-notes-from-underground",
-          title: 'Notes from Underground',
+            },},{id: "books-losing-my-virginity",
+          title: 'Losing My Virginity',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/losing-my-virginity/";
+            },},{id: "books-introduction-to-machine-learning-systems",
+          title: 'Introduction to Machine Learning Systems',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ml-systems/";
+            },},{id: "books-notes-from-the-underground",
+          title: 'Notes from the Underground',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/notes_underground/";
-            },},{id: "books-the-space-barons",
-          title: 'The Space Barons',
+            },},{id: "books-the-singapore-story",
+          title: 'The Singapore Story',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/singapore-story/";
+            },},{id: "books-space-barons",
+          title: 'Space Barons',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/space_barons/";
             },},{id: "books-thinking-fast-and-slow",
-          title: 'Thinking Fast and Slow',
+          title: 'Thinking, Fast and Slow',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/think_fast_slow/";
@@ -320,7 +340,7 @@ ninja.data = [{
         title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://instagram.com/w_ok_e18", "_blank");
+          window.open("https://instagram.com/its_ok_yk", "_blank");
         },
       },{
         id: 'social-kaggle',
