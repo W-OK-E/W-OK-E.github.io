@@ -286,16 +286,6 @@ ninja.data = [{
           description: "A multi-task, multi-modal foundation model for medical image segmentation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_foundation_model/";
-            },},{id: "projects-cleangs-gaussian-cleanup",
-          title: 'CleanGS (Gaussian Cleanup)',
-          description: "Post-hoc floater removal pipeline for 3D Gaussian Splatting (3DGS).",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_cleangs/";
-            },},{id: "projects-reslocotransformer",
-          title: 'ResLocoTransformer',
-          description: "Residual Attention based Transformer policy for Quadruped Locomotion.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_resloco/";
             },},{id: "projects-igvc-2025-project-manas",
           title: 'IGVC 2025 (Project MANAS)',
           description: "Software stack for our 3rd-place global autonomous ground vehicle at IGVC 2025.",
@@ -306,11 +296,6 @@ ninja.data = [{
           description: "Perception stack for our autonomous aerial vehicle - 1st Place among drones.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_isdc/";
-            },},{id: "projects-clear3d-3d-inpainting",
-          title: 'Clear3D (3D Inpainting)',
-          description: "Multi-view diffusion based 3D Inpainting for novel view synthesis.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_clear3d/";
             },},{id: "projects-eliteus-super-resolution",
           title: 'EliteUS (Super-Resolution)',
           description: "Lightweight arbitrary-scale super-resolution model for ultrasonography.",
