@@ -191,13 +191,11 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/projects.md
-  # - _pages/cv.md
+  - _pages/cv.md
   - _pages/teaching.md
   - _pages/publications.md
   - _pages/profiles.md
   - _pages/dropdown.md
-  - _projects
   
 keep_files:
   - CNAME
@@ -271,8 +269,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kumar]
+  first_name: [Om]
 
   style: apa
   locale: en

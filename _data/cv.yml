@@ -2,96 +2,111 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Om Kumar
     - name: Languages
-      value: English, German
+      value: English (B2), Spanish (A1)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.Tech in Mathematics and Computing
+      institution: Manipal Institute of Technology, Manipal, Karnataka
+      year: July 2023 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "CGPA: 8.47 / 10.0"
+        - "Relevant Coursework: Statistics, Probability Theory, Real Analysis, Linear Algebra, Optimization, Machine Learning"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern (Incoming)
+      institution: Max Planck Institute for Intelligent Systems, Tübingen, Germany
+      year: June 2026 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Selection for research internship in the area of Intelligent Systems.
+    - title: Expansion Manager
+      institution: DEGIS Tübingen Chapter, Tübingen, Germany
+      year: June 2026 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Managing expansion initiatives for the Tübingen chapter.
+    - title: Team Manager
+      institution: Project MANAS, MIT Manipal
+      year: August 2025 – Present
       description:
+        - Heading Research, Marketing, Outreach, Budgeting, and General Operations for Project MANAS – The official AI and Robotics Research team of MIT Manipal.
+        - Leading a 30-member multidisciplinary team.
+    - title: Netweb Summer Research Intern
+      institution: NISER Bhubaneswar (Hybrid)
+      year: May 2025 – Present
+      description:
+        - Developed a post hoc floater removal pipeline for 3DGS that eliminates spurious Gaussian primitives without retraining (reduces model size to 20.4%, improves PSNR by +4.75 dB).
+        - Developed a multi-view diffusion framework for enhancing novel view synthesis in sparse regions.
+        - Accelerated high-resolution 3D reconstruction rendering by almost 1000x.
+    - title: Research Intern
+      institution: Kharagpur Learning, Imaging and Visualization Group, IIT Kharagpur
+      year: Nov 2024 – Present
+      description:
+        - Co-developed arbitrary-scale super-resolution model for ultrasonography.
+        - Built production-ready training pipelines with automated data versioning.
+        - Developing multi-task, multi-modal foundation models for medical imaging.
+    - title: Research Assistant
+      institution: Manipal Institute of Technology, Manipal
+      year: Mar 2024 – Sept 2024
+      description:
+        - Applied Generative Flow Networks to generate novel drug candidates for S. Aureus.
+    - title: AI Subsystem Team Member
+      institution: Project MANAS, MIT Manipal
+      year: Mar 2024 – Present
+      description:
+        - Developed real-time ODLC pipeline (sub-30ms inference) for IGVC 2025.
+        - Designed efficient probabilistic occupancy grid mapping (40% memory reduction).
+    - title: Part-Time Teacher
+      institution: Gurukul Classes / GuruATHome (Remote)
+      year: 2019 – Present
+      description:
+        - Delivering 1-on-1 mathematics and computer science to international students.
+        - Taught subjects from Sanskrit to STEM up to 11th Grade level.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Open Source & Key Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/W-OK-E/mjx_rl_go2">MJX RL Go2</a>
+      year: 2026
+      description: Unitree Go2 MuJoCo simulations ported to XLA for massive RL training speedups.
+    - title: Project Tirtha
+      year: 2025
+      description: Integrated VGGT-based reconstruction, achieving ~1000x faster inference; deployment backbone for NISER heritage-site research.
+    - title: <a href="https://github.com/W-OK-E/foundation_model">Medical Foundation Model</a>
+      year: 2025
+      description: Multi-modal foundation model for medical image segmentation.
+    - title: <a href="https://github.com/W-OK-E/Gurukul_Figma">Gurukul Tutoring Platform</a>
+      year: 2024
+      description: Full-stack tutoring platform built with Next.js and Supabase.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - 3rd Place Global, IGVC AutoNav Driverless Challenge (USA)
+        - 1st Place (Autonomous Drones), ISDC 2025
+        - 3rd Place Overall, ISDC 2025
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Robotics & Control
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Quadruped Locomotion
+        - Reinforcement Learning
+        - Autonomous Navigation
+    - title: Computer Vision
       items:
-        - Description 1.
-        - Description 2.
+        - 3D Reconstruction (3DGS, NeRF)
+        - Medical Imaging Foundation Models
+        - Super-Resolution
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Basketball, Writing, Swimming
