@@ -202,8 +202,8 @@ ninja.data = [{
             window.location.href = "/blog/2024/balltracking/";
           
         },
-      },{id: "books-breaking-the-code",
-          title: 'Breaking the Code',
+      },{id: "books-the-code-breaker",
+          title: 'The Code Breaker',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/breaking_code/";
