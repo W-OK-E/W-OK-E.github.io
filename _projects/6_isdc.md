@@ -1,7 +1,8 @@
 ---
 layout: page
 title: ISDC 2025 (Project MANAS)
-description: Perception stack for our autonomous aerial vehicle - 1st Place among drones.
+description: Perception stack for our autonomous aerial vehicle - 1st Place among
+  drones.
 img: assets/img/publication_preview/placeholder.jpg
 importance: 6
 category: work

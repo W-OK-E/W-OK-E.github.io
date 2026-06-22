@@ -1,11 +1,13 @@
 ---
 layout: page
 title: Unitree Gov2 Mujoco RL (MJX)
-description: Unitree Go2 MuJoCo simulations ported to XLA for massive RL training speedups.
-img: assets/img/publication_preview/placeholder.jpg
+description: Unitree Go2 MuJoCo simulations ported to XLA for massive RL training
+  speedups.
+img: https://raw.githubusercontent.com/W-OK-E/mjx_rl_go2/main/doc/gif/go2-velocity.gif
 importance: 1
 category: research
 github: https://github.com/W-OK-E/mjx_rl_go2
+avoid_scaling: true
 ---
 
 # Unitree RL Mjlab
