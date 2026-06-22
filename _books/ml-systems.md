@@ -2,7 +2,7 @@
 layout: book-review
 title: Introduction to Machine Learning Systems
 author: Vijay Janapa Reddi
-cover: assets/img/book_covers/Introduction_ML_Systems.png
+cover: https://mlsysbook.ai/covers/cover-hardcover-book-vol1.png
 olid: 
 isbn: 9780262058889
 categories: non-fiction

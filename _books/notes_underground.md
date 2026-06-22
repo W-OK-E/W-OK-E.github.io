@@ -2,7 +2,7 @@
 layout: book-review
 title: Notes from the Underground
 author: Fyodor Dostoevsky
-cover: assets/img/book_covers/Notes_Underground.png
+cover: https://upload.wikimedia.org/wikipedia/commons/b/b3/Notes_from_underground_cover.jpg
 olid: OL43499946M
 isbn: 9780141194868
 categories: fiction
