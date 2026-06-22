@@ -110,8 +110,25 @@ def sync_readmes():
         # Rewrite image URLs
         readme_content = rewrite_image_urls(readme_content, repo_url)
         
+        # Extract first image as thumbnail
+        # Try markdown first: ![alt](url)
+        img_match = re.search(r"!\[.*?\]\((.*?)\)", readme_content)
+        if not img_match:
+            # Try HTML: <img ... src="url" ... />
+            img_match = re.search(r"<img[^>]*?src=\"(.*?)\"", readme_content)
+        
+        if img_match:
+            first_img = img_match.group(1)
+            metadata['img'] = first_img
+            # Add avoid_scaling: true for remote images to prevent imagemagick errors
+            metadata['avoid_scaling'] = True
+            print(f"Set thumbnail to {first_img}")
+        
+        # Prepare new frontmatter
+        new_frontmatter_str = yaml.dump(metadata, sort_keys=False)
+        
         # Prepare new content: preserve frontmatter, append README content
-        new_content = "---\n" + frontmatter_str + "---\n\n" + readme_content
+        new_content = "---\n" + new_frontmatter_str + "---\n\n" + readme_content
         
         with open(filepath, 'w') as f:
             f.write(new_content)
