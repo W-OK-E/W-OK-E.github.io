@@ -11,7 +11,7 @@ chart:
 How hard is it for you to keep track of the tennis ball when Federer and Nadal are up against each other? Quite easy, no? Barring of course, the torture that your neck has to undergo. 
 
 <video width="640" height="360" autoplay loop muted controls>
-  <source src="giphy.mp4" type="video/mp4">
+  <source src="/assets/img/post_ims/Track/giphy.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

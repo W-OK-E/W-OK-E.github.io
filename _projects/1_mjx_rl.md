@@ -32,7 +32,7 @@ and sim-to-real deployment.
 
 ## 📦 Installation and Configuration
 
-Please refer to [setup.md](doc/setup_en.md) for installation and configuration steps.
+Please refer to [setup.md](https://github.com/W-OK-E/mjx_rl_go2/blob/main/doc/setup_en.md) for installation and configuration steps.
 
 
 ## 🔁 Process Overview

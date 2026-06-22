@@ -25,7 +25,7 @@ A comprehensive tutoring platform built with Next.js and Supabase.
 3. Run `npm run dev`
 
 ## Deployment & Expansion
-See [next-steps.md](./next-steps.md) for detailed instructions on how to deploy to the free tier and expand the platform features.
+See [next-steps.md](https://github.com/W-OK-E/Gurukul_Figma/blob/main/next-steps.md) for detailed instructions on how to deploy to the free tier and expand the platform features.
 
 
 To create admin account:

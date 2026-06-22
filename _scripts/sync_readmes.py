@@ -41,6 +41,20 @@ def rewrite_image_urls(content, repo_url):
         return match.group(0)
 
     content = re.sub(r"<img([^>]*?)src=\"(.*?)\"([^>]*?)", replace_html_url, content)
+
+    # Match markdown links: [text](path.md)
+    def replace_md_link(match):
+        text = match.group(1)
+        url = match.group(2)
+        if url.endswith(".md") and not (url.startswith("http") or url.startswith("/") or url.startswith("#")):
+            # Clean up ./ if present
+            clean_url = url.lstrip("./")
+            # Use /blob/ for documentation links
+            blob_url = f"https://github.com/{user}/{repo}/blob/main"
+            return f"[{text}]({blob_url}/{clean_url})"
+        return match.group(0)
+
+    content = re.sub(r"\[(.*?)\]\(((?!\!).*?)\)", replace_md_link, content)
     
     return content
 
