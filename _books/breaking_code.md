@@ -8,7 +8,7 @@ isbn: 9781982115852
 categories: non-fiction
 tags: 
 buy_link: 
-status: Read
+status: Finished
 ---
 
 Review coming soon.

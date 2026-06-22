@@ -8,5 +8,5 @@ isbn: 9780593135204
 categories: fiction
 tags: 
 buy_link: 
-status: Read
+status: Finished
 ---

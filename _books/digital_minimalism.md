@@ -8,5 +8,5 @@ isbn: 9780525536543
 categories: non-fiction
 tags: 
 buy_link: 
-status: Read
+status: Finished
 ---
