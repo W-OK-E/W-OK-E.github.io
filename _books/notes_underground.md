@@ -8,5 +8,5 @@ isbn: 9780141194868
 categories: fiction
 tags: 
 buy_link: 
-status: 
+status: Read
 ---

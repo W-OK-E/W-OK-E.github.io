@@ -8,5 +8,5 @@ isbn: 9780241746929
 categories: fiction
 tags: 
 buy_link: 
-status: 
+status: Read
 ---

@@ -8,5 +8,5 @@ isbn: 9789814677660
 categories: non-fiction
 tags: 
 buy_link: 
-status: 
+status: Read
 ---

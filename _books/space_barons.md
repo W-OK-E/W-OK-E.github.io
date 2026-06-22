@@ -8,5 +8,5 @@ isbn: 9781610398299
 categories: non-fiction
 tags: 
 buy_link: 
-status: 
+status: Read
 ---

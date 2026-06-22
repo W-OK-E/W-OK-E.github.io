@@ -8,5 +8,5 @@ isbn: 0385504209
 categories: fiction
 tags: 
 buy_link: 
-status: 
+status: Reading
 ---
