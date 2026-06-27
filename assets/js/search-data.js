@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/asics/";
           
         },
+      },{id: "post-keeping-a-secret-from-agents",
+        
+          title: "Keeping a secret from Agents!",
+        
+        description: "Quick Dive into SREGym - the evaluation benchmark for agents deployed in SRE settings.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/sregym-rfc2/";
+          
+        },
       },{id: "post-ult-unifying-teacher-student-rl-with-transformers",
         
           title: "ULT: Unifying Teacher-Student RL with Transformers",
@@ -68,17 +79,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/sregym/";
-          
-        },
-      },{id: "post-breaking-down-sregym",
-        
-          title: "Breaking down SREGym!",
-        
-        description: "Quick Dive into SREGym - the evaluation benchmark for agents deployed in SRE settings.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/sregym-rfc2/";
           
         },
       },{id: "post-let-39-s-paint-shall-we",
@@ -262,7 +262,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/think_fast_slow/";
-            },},{id: "news-joined-niser-bhubaneswar-as-a-summer-research-intern-working-on-3d-reconstruction-and-gaussian-splatting-floater-removal-pipelines",
+            },},{id: "news-we-have-secured-1st-place-in-project-implementation-and-management-category-at-the-international-space-drone-challenge-held-at-bits-pilani-k-k-birla-goa-campus-and-4th-place-overall",
+          title: 'We have secured 1st place in Project Implementation and Management category at the...',
+          description: "",
+          section: "News",},{id: "news-joined-niser-bhubaneswar-as-a-summer-research-intern-working-on-3d-reconstruction-and-gaussian-splatting-floater-removal-pipelines",
           title: 'Joined NISER Bhubaneswar as a Summer Research Intern working on 3D Reconstruction and...',
           description: "",
           section: "News",},{id: "news-our-team-project-manas-achieved-3rd-place-globally-at-the-igvc-2025-usa-autonav-driverless-challenge-proud-to-have-contributed-to-the-perception-and-navigation-stack",
