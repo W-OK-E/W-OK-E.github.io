@@ -36,7 +36,3 @@ My research and project work currently revolves around:
 - **Medical Imaging** and Foundation Models
 - **Agentic Site Reliability Engineering**
 - **Autonomous Vehicles**
-
-I am excited to share that I will be joining the **Max Planck Institute for Intelligent Systems** in Tübingen, Germany, as a Research Intern, and I am also the **Expansion Manager** for the Tübingen Chapter of **DEGIS**.
-
-
