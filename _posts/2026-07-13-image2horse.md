@@ -119,11 +119,11 @@ Well then the question is how do we obtain a coherent pose across all the scans 
 2. But, if the vertex is influenced by multiple joints, we need to assign weights - weights that dictate how much of an influence one joint has over the vertex's position. We usually use normalized weights which means that all of them must add up to 1.
 3. So, the way it works is pretty simple - first we treat the point as if it is just being transformed by one of the joints and the other joint has no influence on it whatsoever. Then we repeat the same thing for the other joints. And once we have the transformed position of the vertex for each of the joint, we just take the weighted average of all of these points to obtain the actual transformed location of the point. 
 
-#NOTE - There is an additional little detail about Linear Blend skinning that we have skipped here - something about where the transformation is actually applied to the vertices, but they are not crucial for building an intuition for this.
+**NOTE** - There is an additional little detail about Linear Blend skinning that we have skipped here - something about where the transformation is actually applied to the vertices, but they are not crucial for building an intuition for this. 
 
 So we normalize all our meshes to be in a similar pose using LBS, and then force it to be symmetric by mirroring the vertices - this is essentially done to ensure that the model does not learn assymetry as part of the biology of the organism. And of course, as you would have guessed by now, we apply PCA again to all the meshes to model the statistics of the shape variation. This gives us the mean shape that we should stick to and also the directions which we should vary parameters, in order to move from one animal to the other.
----
 
+---
 ## Measuring Poses: GMMs and Priors
 Articulation is an optimization problem minimizing:
 - The **Reprojection Error**
