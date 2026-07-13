@@ -3,7 +3,7 @@ layout: post
 title: "Estimating poses where we don't have them"
 date: 2026-07-13 15:00:00
 description: Understanding the intricate details behind SMAL.
-tags: 3D Reconstruction, Model Registration, 2d-to-3d
+tags: 3D, Mesh, ParametricModels
 categories: Technical
 ---
 
