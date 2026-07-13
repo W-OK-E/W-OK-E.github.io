@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-branch-prediction-from-cpus-to-gpus-and-tpus",
+        },{id: "post-estimating-poses-where-we-don-39-t-have-them",
+        
+          title: "Estimating poses where we don&#39;t have them",
+        
+        description: "Understanding the intricate details behind SMAL.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/image2horse/";
+          
+        },
+      },{id: "post-branch-prediction-from-cpus-to-gpus-and-tpus",
         
           title: "Branch Prediction: From CPUs to GPUs and TPUs",
         
