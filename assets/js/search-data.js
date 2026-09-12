@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Insanely Curious and sometimes vain",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-estimating-poses-where-we-don-39-t-have-them",
         
           title: "Estimating poses where we don&#39;t have them",
