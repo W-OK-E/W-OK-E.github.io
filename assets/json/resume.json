@@ -29,12 +29,15 @@
   "work": [
     {
       "name": "Max Planck Institute for Intelligent Systems",
-      "position": "Incoming Machine Learning Intern",
+      "position": "Machine Learning Research Intern",
       "url": "https://is.mpg.de/",
       "startDate": "2026-07-01",
       "endDate": "2026-09-30",
-      "summary": "Selected as a Machine Learning Intern for Summer 2026.",
-      "highlights": []
+      "summary": "Part of a researcg cohort of 12 people from around the world",
+      "highlights": [
+        "Working on anatomically accurate parametric models of Animals for Veterinary causes.",
+        "Designed and trained an image to 3D architecture that beats SOTA within 2.5 months."
+      ]
     },
     {
       "name": "NISER Bhubaneswar (Netweb Technologies)",

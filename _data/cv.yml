@@ -13,17 +13,18 @@
       institution: Manipal Institute of Technology, Manipal, Karnataka
       year: July 2023 – Present
       description:
-        - "CGPA: 8.47 / 10.0"
+        - "CGPA: 8.33 / 10.0"
         - "Relevant Coursework: Statistics, Probability Theory, Real Analysis, Linear Algebra, Optimization, Machine Learning"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Intern (Incoming)
+    - title: Machine Learning Research Intern
       institution: Max Planck Institute for Intelligent Systems, Tübingen, Germany
-      year: June 2026 - Present
+      year: July 2026 - Present
       description:
-        - Selection for research internship in the area of Intelligent Systems.
+        - Working on anatomically accurate parametric models of Animals for Veterinary causes.
+        - Designed and trained an image to 3D architecture that beats SOTA within 2.5 months.
     - title: Expansion Manager
       institution: DEGIS Tübingen Chapter, Tübingen, Germany
       year: June 2026 - Present
