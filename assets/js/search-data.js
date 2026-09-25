@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of my projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -360,7 +360,7 @@ ninja.data = [{
         title: 'Pinterest',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.pinterest.com/okhere21/_pins/", "_blank");
+          window.open("https://www.pinterest.com/okhere21/_created/", "_blank");
         },
       },{
       id: 'light-theme',
