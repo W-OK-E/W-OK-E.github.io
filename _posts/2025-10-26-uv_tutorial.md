@@ -3,7 +3,7 @@ layout: post
 title: A simple and intuitive guide to using uv - an awesome tool from astral!
 date: 2025-10-26 18:00:00
 description: Quick Dive into Byte Pair Encoding tokenizers.
-tags: Computer Vision, OpenCV
+tags: ["Computer Vision", "OpenCV"]
 categories: Posts
 chart:
   plotly: true

@@ -3,7 +3,7 @@ layout: post
 title: Track me if you can!
 date: 2024-09-31 18:00:00
 description: Simple Ball Tracking using hsv
-tags: Computer Vision, OpenCV
+tags: ["Computer Vision", "OpenCV"]
 categories: Posts
 chart:
   plotly: true
