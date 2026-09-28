@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The model denied my request but why?
-date: 2026-07-13 15:00:00
+date: 2026-08-10 15:00:00
 description: Understanding the refusal mechanisms in LLMs and VLMs.
 tags: ["Mechanistic Interpretability", "AI Research", "AI Safety Research"]
 categories: Technical
