@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-estimating-poses-where-we-don-39-t-have-them",
+        },{id: "post-the-model-denied-my-request-but-why",
+        
+          title: "The model denied my request but why?",
+        
+        description: "Understanding the refusal mechanisms in LLMs and VLMs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/vlm_refusal/";
+          
+        },
+      },{id: "post-estimating-poses-where-we-don-39-t-have-them",
         
           title: "Estimating poses where we don&#39;t have them",
         
