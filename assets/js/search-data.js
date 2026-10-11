@@ -55,15 +55,15 @@ ninja.data = [{
             window.location.href = "/blog/2026/2026-10-08-cypher_talks/";
           
         },
-      },{id: "post-the-model-denied-my-request-but-why",
+      },{id: "post-",
         
-          title: "The model denied my request but why?",
+          title: "",
         
-        description: "Understanding the refusal mechanisms in LLMs and VLMs.",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/rl_design/";
+            window.location.href = "/blog/2026/2026-10-06-rl_design/";
           
         },
       },{id: "post-the-model-denied-my-request-but-why",
