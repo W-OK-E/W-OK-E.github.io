@@ -44,29 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2026-10-08-cypher_talks/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2026-10-06-rl_design/";
-          
-        },
-      },{id: "post-the-model-denied-my-request-but-why",
+        },{id: "post-the-model-denied-my-request-but-why",
         
           title: "The model denied my request but why?",
         
