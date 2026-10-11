@@ -28,7 +28,7 @@ Well, Hi There! I am Om Kumar, a pre-final **Mathematics and Computing** student
 
 I am an active member of the AI Subsystem at **Project MANAS**, the official AI and Robotics Research Team of Manipal Academy of Higher Education. Currently, I serve as the **Team Manager** of our 30-member team, where I lead research initiatives, oversee project management, and coordinate our participation in national and international competitions like NIDAR and IGVC. We have had some remarkable results, including 3rd place globally at IGVC 2025 and 4th Place at the International Space Drone Challenge 2025.
 
-Beyond competition, I have a strong commitment to mentoring and education. I have mentored batches of 20+ students in deep learning and robotics for two consecutive years and have led workshops on advanced topics like **Reinforcement Learning** and **Style Transfer using CycleGANs**. I've also been teaching Computer Science and Mathematics to students online since I was in 9th standard, currently through platforms like **Gurukul** and **GuruATHome**.
+Beyond competition, I have a strong commitment to mentoring and education. I have mentored batches of 20+ students in deep learning and robotics for two consecutive years and have led workshops on advanced topics like **Reinforcement Learning** and **Style Transfer using CycleGANs**. I've also been teaching Computer Science and Mathematics to students online since I was in 9th grade, currently through platforms like **Gurukul** and **GuruATHome**.
 
 My research and project work currently revolves around:
 - **Quadruped Locomotion** using Reinforcement Learning
