@@ -19,6 +19,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Robotics Engineer
+      institution: Shelduck AI Systems
+      year: September 2026 - December 2026 (Fixed Contract)
+      description:
+        - Developing a simulation environment to test autonomous UAV navigation and surveillance strategies for real-time crop protection against wildlife intrusion
     - title: Guest Researcher
       institution: Max Planck Institute for Intelligent Systems, Tübingen, Germany
       year: September 2026 - Present
