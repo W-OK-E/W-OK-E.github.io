@@ -19,17 +19,18 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Guest Researcher
+      institution: Max Planck Institute for Intelligent Systems, Tübingen, Germany
+      year: September 2026 - Present
+      description:
+        - Improving the robustness of our image to 3D pipeline for equine for real world deployement.
     - title: Machine Learning Research Intern
       institution: Max Planck Institute for Intelligent Systems, Tübingen, Germany
-      year: July 2026 - Present
+      year: July 2026 - September 2026
       description:
-        - Working on anatomically accurate parametric models of Animals for Veterinary causes.
-        - Designed and trained an image to 3D architecture that beats SOTA within 2.5 months.
-    - title: Expansion Manager
-      institution: DEGIS Tübingen Chapter, Tübingen, Germany
-      year: June 2026 - Present
-      description:
-        - Managing expansion initiatives for the Tübingen chapter.
+        - Worked on anatomically accurate parametric models of Equines for Veterinary aid.
+        - Designed and trained a ViT based method that outperforms SOTA methods by 40%.
+        - End to end dataset generation at scale in blender and Unreal Engine.
     - title: Team Manager
       institution: Project MANAS, MIT Manipal
       year: August 2025 – Present
