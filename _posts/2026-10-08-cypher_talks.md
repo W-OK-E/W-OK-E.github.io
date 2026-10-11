@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Notes from the Floor: Cypher India Summit
-date: 2026-10-08 15:00:00
+date: 2026-10-08 13:45:00
 description: Notes from CYPHER - India's largest AI summit.
 tags: ["AI and the Industry", "AI Research", "Enterprise AI"]
 categories: Technical
