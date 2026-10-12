@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-lost-art-of-environment-design-why-building-for-rl-is-harder-than-you-think",
+        },{id: "post-notes-from-the-floor-cypher-india-summit",
+        
+          title: "Notes from the Floor: Cypher India Summit",
+        
+        description: "Notes from CYPHER - India&#39;s largest AI summit.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/cypher_talks/";
+          
+        },
+      },{id: "post-the-lost-art-of-environment-design-why-building-for-rl-is-harder-than-you-think",
         
           title: "The Lost Art of Environment Design: Why Building for RL is Harder Than...",
         
@@ -53,6 +64,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/rl_design/";
+          
+        },
+      },{id: "post-the-model-denied-my-request-but-why",
+        
+          title: "The model denied my request but why?",
+        
+        description: "Understanding the refusal mechanisms in LLMs and VLMs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/vlm_refusal/";
           
         },
       },{id: "post-estimating-poses-where-we-don-39-t-have-them",
