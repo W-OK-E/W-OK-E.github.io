@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-the-lost-art-of-environment-design-why-building-for-rl-is-harder-than-you-think",
         
-          title: "",
+          title: "The Lost Art of Environment Design: Why Building for RL is Harder Than...",
         
-        description: "",
+        description: "Revisiting techniques for RL environment design",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-10-06-rl_design/";
+            window.location.href = "/blog/2026/rl_design/";
           
         },
       },{id: "post-estimating-poses-where-we-don-39-t-have-them",
