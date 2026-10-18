@@ -28,6 +28,28 @@
 
   "work": [
     {
+      "name": "Shelduck AI Systems",
+      "position": "Robotics Engineer",
+      "url": "",
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "summary": "Fixed-term contract",
+      "highlights": [
+        "Developing a simulation environment to test autonomous UAV navigation and surveillance strategies for real-time crop protection against wildlife intrusion"
+      ]
+    },
+    {
+      "name": "Max Planck Institute for Intelligent Systems",
+      "position": "Guest Researcher",
+      "url": "https://is.mpg.de/",
+      "startDate": "2026-09-01",
+      "endDate": "",
+      "summary": "Tübingen, Germany",
+      "highlights": [
+        "Improving the robustness of our image to 3D pipeline for equine for real world deployment."
+      ]
+    },
+    {
       "name": "Max Planck Institute for Intelligent Systems",
       "position": "Machine Learning Research Intern",
       "url": "https://is.mpg.de/",
@@ -35,8 +57,9 @@
       "endDate": "2026-09-30",
       "summary": "Part of a research cohort of 12 people from around the world",
       "highlights": [
-        "Working on anatomically accurate parametric models of Animals for Veterinary causes.",
-        "Designed and trained an image to 3D architecture that beats SOTA within 2.5 months."
+        "Worked on anatomically accurate parametric models of Equines for Veterinary aid.",
+        "Designed and trained a ViT based method that outperforms SOTA methods by 40%.",
+        "End to end dataset generation at scale in blender and Unreal Engine."
       ]
     },
     {
