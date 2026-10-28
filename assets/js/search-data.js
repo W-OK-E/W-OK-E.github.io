@@ -395,6 +395,13 @@ ninja.data = [{
           window.open("https://www.kaggle.com/omkumarkag", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/om-kumar-75517926a", "_blank");
+        },
+      },{
         id: 'social-pinterest',
         title: 'Pinterest',
         section: 'Socials',
